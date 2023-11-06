@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Supervisor Approval</title>
+
+    <!-- Custom logo for this page-->
+    <link rel="icon" type="image/x-icon" href="img/laptop-code-solid.svg">
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-maroon sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="sidebar-brand-text mx-1 text-xs">Integrated Activations Tool</div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item (Home) -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-house-user"></i>
+                    <span>Home</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading (Custom) -->
+            <div class="sidebar-heading">
+                Custom
+            </div>
+
+            <!-- Nav Item (Notes Generator) -->
+            <li class="nav-item active">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseNotes"
+                    aria-expanded="true" aria-controls="collapseNotes">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Notes Generator</span>
+                </a>
+                <div id="collapseNotes" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Components:</h6>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-successful_call_out_for_activation.html">Successful call out for Activation</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-unsuccessful_call_out.html">Unsuccessful call out</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-successful_call_out_with_compliance.html">Successful call out with Compliance</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-pending.html">Pending</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-compliance_officer.html">Compliance Officer</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-documents_for_approval.html">Docs for Approval</a>
+                        <a class="collapse-item text-wrap text-metropolis text-white font-weight-bolder bg-secondary" href="notes-supervisor_approval.html">Supervisor Approval</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-pldt.html">PLDT</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-radius_dual_play.html">Radius Dual Play</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-radius_standalone.html">Radius Standalone</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-demo.html">Demo</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-content.html">Content</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-syndication.html">Syndication</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-vsat_documents_for_approval.html">VSAT Docs for Approval</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="notes-vsat_activation.html">VSAT Activation</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading (Utilities) -->
+            <div class="sidebar-heading">
+                Utilities
+            </div>
+
+            <!-- Nav Item (HPA Calculator) -->
+            <li class="nav-item">
+                <a class="nav-link" href="hpa_calculator.html">
+                    <i class="fas fa-fw fa-calculator"></i>
+                    <span>HPA Calculator</span></a>
+            </li>
+
+            <!-- Nav Item (Compliance Officer Email Template) -->
+            <li class="nav-item">
+                <a class="nav-link" href="compliance_officer_email_template.html">
+                    <i class="fas fa-fw fa-envelope"></i>
+                    <span>CO Email Template</span></a>
+            </li>
+
+            <!-- Nav Item (Promo Matrix) -->
+            <li class="nav-item">
+                <a class="nav-link" href="promo_matrix.html">
+                    <i class="fas fa-fw fa-cube"></i>
+                    <span>Promo Matrix</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Heading (Plugins) -->
+            <div class="sidebar-heading">
+                Plugins
+            </div>
+
+            <!-- Nav Item (Table List) -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseList"
+                    aria-expanded="true" aria-controls="collapseList">
+                    <i class="fas fa-fw fa-filter"></i>
+                    <span>Table List</span>
+                </a>
+                <div id="collapseList" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Table List:</h6>
+                        <a class="collapse-item text-wrap text-metropolis" href="table-list_id_only.html">ID Only List</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="table-list_mdu.html">MDU List</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item (List of Barangay) -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBarangay"
+                    aria-expanded="true" aria-controls="collapseBarangay">
+                    <i class="fas fa-fw fa-building"></i>
+                    <span>List of Barangay</span>
+                </a>
+                <div id="collapseBarangay" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Table List:</h6>
+                        <a class="collapse-item text-wrap text-metropolis" href="table-barangay_caloocan.html">Barangay in Caloocan</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="table-barangay_manila.html">Barangay in Manila</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item (Channels) -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseChannels"
+                    aria-expanded="true" aria-controls="collapseChannels">
+                    <i class="fas fa-solid fa-tv"></i>
+                    <span>Channels</span>
+                </a>
+                <div id="collapseChannels" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Table List:</h6>
+                        <a class="collapse-item text-wrap text-metropolis" href="table-channel_line-up.html">Channel Line Up</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="table-channel_ala_carte.html">Ala Carte</a>
+                        <a class="collapse-item text-wrap text-metropolis" href="table-channel_audio.html">Audio Channel</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+            <!-- Sidebar Message -->
+            <div class="sidebar-card d-none d-lg-flex">
+                <img class="sidebar-card-illustration mb-2" src="img/undraw_activations_team_a7n2.svg" alt="...">
+                <p class="text-center mb-0 font-weight-bolder">Customer Experience Group</p>
+                <p class="text-center mb-1">Activation Officer</p>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-bell fa-fw"></i>
+                                <!-- Counter - Alerts -->
+                                <span class="badge badge-danger badge-counter">3+</span>
+                            </a>
+                            <!-- Dropdown - Alerts -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="alertsDropdown">
+                                <h6 class="dropdown-header">
+                                    Alerts Center
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="promo_matrix.html">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-primary">
+                                            <i class="fas fa-cube text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-700">October 10, 2023</div>
+                                        <span class="font-weight-bold">Update Activations Promo Matrix as of October 9, 2023</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="table-list_id_only.html">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-success">
+                                            <i class="fas fa-filter text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-700">October 10, 2023</div>
+                                        Updated ID Only List as of October 5, 2023
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="table-channel_line-up.html">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-danger">
+                                            <i class="fas fa-tv text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-700">October 10, 2023</div>
+                                        Updated Channel Line Up as of October 1, 2023
+                                    </div>
+                                </a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                            </div>
+                        </li>
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-900 small">Activation Officer</span>
+                                <img class="img-profile rounded-circle mx-2"
+                                    src="img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-0 text-gray-800 font-weight-bolder">
+                        Notes - Supervisor Approval
+                    </h1>
+                    <p class="mb-3 text-xs text-danger text-metropolis">
+                        updated Notes Generator as of Octoboer 10, 2023
+                    </p>
+
+                    <!-- CallOut Row -->
+                    <div class="row offset-1">
+
+                        <div class="col-lg-6">
+
+                            <!-- Dropdown Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header py-7 d-flex flex-row align-items-center justify-content-between bg-gradient-dark">
+                                    <h6 class="m-0 font-weight-bold text-white">Approval details</h6>
+                                </div>
+
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="form-row mb-3">
+                                        <div class="col-form-label col-sm-4 mb-3 mb-sm-0 text-right">
+                                            <code>Reason:</code>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <textarea class="form-control" rows="5" id="reason" oninput="approvalText()"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="col-form-label col-sm-4 mb-3 mb-sm-0 text-right">
+                                            <code>Ticket Number:</code>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <input class="form-control" id="approvalTicket" oninput="approvalText()">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="card-footer d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0"></h6>
+                                    <div class="align-items-end justify-content-end">
+                                        <button class="btn btn-danger btn-icon-split btn-sm" onclick="clearApprovalFields();">
+                                            <span class="icon text-white-50">
+                                                <i class="fas fa-trash"></i>
+                                            </span>
+                                            <span class="text">clear fields</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <!-- Dropdown Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header py-7 d-flex flex-row align-items-center justify-content-between bg-gradient-dark">
+                                    <h6 class="m-0 font-weight-bold text-white">Notes Result</h6>
+                                </div>
+
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="form-group mb-0">
+                                        <textarea style="height: 187px;" class="form-control" id="approvalTextArea" readonly></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0"></h6>
+                                    <div class="align-items-end justify-content-end">
+                                        <button class="btn btn-info btn-icon-split btn-sm" onclick="copyApprovalText();">
+                                            <span class="icon text-white-50">
+                                                <i class="fas fa-copy"></i>
+                                            </span>
+                                            <span class="text">copy text</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- /.row -->
+
+                    <!-- Activation Row -->
+                    <div class="row offset-1">
+
+                        <div class="col-lg-6">
+
+                            <!-- Dropdown Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header py-7 d-flex flex-row align-items-center justify-content-between bg-gradient-dark">
+                                    <h6 class="m-0 font-weight-bold text-white">Disapproval details</h6>
+                                </div>
+
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="form-row mb-3">
+                                        <div class="col-form-label col-sm-4 mb-3 mb-sm-0 text-right">
+                                            <code>Reason:</code>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <select class="form-control" id="disapproval" oninput="disapprovalText()">
+                                                <option></option>
+                                                <option>Tampered POB</option>
+                                                <option>Tampered POID</option>
+                                                <option>Installed in Different House</option>
+                                                <option>Fraud Call</option>
+                                                <option>Previously Disapproved Account</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row mb-4">
+                                        <div class="col-form-label col-sm-4 mb-3 mb-sm-0 text-right">
+                                            <code>Ticket Number:</code>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <input class="form-control" id="disapprovalTicket" oninput="disapprovalText()">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="card-footer d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0"></h6>
+                                    <div class="align-items-end justify-content-end">
+                                        <button class="btn btn-danger btn-icon-split btn-sm" onclick="clearDisapprovalFields();">
+                                            <span class="icon text-white-50">
+                                                <i class="fas fa-trash"></i>
+                                            </span>
+                                            <span class="text">clear fields</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <!-- Dropdown Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header py-7 d-flex flex-row align-items-center justify-content-between bg-gradient-dark">
+                                    <h6 class="m-0 font-weight-bold text-white">Notes Result</h6>
+                                </div>
+
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="form-group mb-0">
+                                        <textarea style="height: 116px;" class="form-control" id="disapprovalTextArea" readonly></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0"></h6>
+                                    <div class="align-items-end justify-content-end">
+                                        <button class="btn btn-info btn-icon-split btn-sm" onclick="copyDisapprovalText();">
+                                            <span class="icon text-white-50">
+                                                <i class="fas fa-copy"></i>
+                                            </span>
+                                            <span class="text">copy text</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Nate &copy; Project Initiative 2022</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script type="text/javascript">
+        function approvalText()
+        {
+            var input1 = document.getElementById("reason").value;
+            var input2 = document.getElementById("approvalTicket").value;
+      
+            var approvalNotesResult = document.getElementById("approvalTextArea");
+            approvalNotesResult.value = "For SUP approval\nReason: "+input1+
+                                        "\nTicket Number: "+input2;
+        }   
+
+        function clearApprovalFields()
+        {
+            document.getElementById("reason").value = "";
+            document.getElementById("approvalTicket").value = "";
+            document.getElementById("approvalTextArea").value = "";
+        }
+
+        function disapprovalText()
+        {
+            var input3 = document.getElementById("disapproval").value;
+            var input4 = document.getElementById("disapprovalTicket").value;
+
+            if(input3 == "Tampered POB")
+            {
+                var disapprovalNotesResult = document.getElementById("disapprovalTextArea");
+                disapprovalNotesResult.value = "DISAPPROVE APPLICATION - DXB"+
+                                        "\nTICKET NUMBER: "+input4;
+            }
+            else if(input3 == "Tampered POID")
+            {
+                var disapprovalNotesResult = document.getElementById("disapprovalTextArea");
+                disapprovalNotesResult.value = "DISAPPROVE APPLICATION - DXI"+
+                                        "\nTICKET NUMBER: "+input4;
+            }
+            else if(input3 == "Installed in Different House")
+            {
+                var disapprovalNotesResult = document.getElementById("disapprovalTextArea");
+                disapprovalNotesResult.value = "DISAPPROVE APPLICATION - DXH"+
+                                        "\nTICKET NUMBER: "+input4;
+            }
+            else if(input3 == "Fraud Call")
+            {
+                var disapprovalNotesResult = document.getElementById("disapprovalTextArea");
+                disapprovalNotesResult.value = "DISAPPROVE APPLICATION - DXF"+
+                                        "\nTICKET NUMBER: "+input4;
+            }
+            else if(input3 == "Previously Disapproved Account")
+            {
+                var disapprovalNotesResult = document.getElementById("disapprovalTextArea");
+                disapprovalNotesResult.value = "DISAPPROVE APPLICATION - DXA"+
+                                        "\nTICKET NUMBER: "+input4;
+            }
+            else if(input3 == "" && input4 == "")
+            {
+                var disapprovalNotesResult = document.getElementById("disapprovalTextArea");
+                disapprovalNotesResult.value = ""+
+                                        ""+input4;
+            }
+            else
+            {
+                var disapprovalNotesResult = document.getElementById("disapprovalTextArea");
+                disapprovalNotesResult.value = "DISAPPROVE APPLICATION"+
+                                        "\nTICKET NUMBER: "+input4;
+            }
+        }
+
+        function clearDisapprovalFields(){
+            document.getElementById("disapproval").value = "";
+            document.getElementById("disapprovalTicket").value = "";
+            document.getElementById("disapprovalTextArea").value = "";
+        }
+
+        function copyApprovalText(){
+            var copyText = document.getElementById("approvalTextArea");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value);
+        }
+
+        function copyDisapprovalText(){
+            var copyText = document.getElementById("disapprovalTextArea");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value);
+        }
+    </script>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+</body>
+
+</html>

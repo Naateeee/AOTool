@@ -8,22 +8,11 @@ node_modules/
 .DS_Store
 .git
 
-# Ignore compiled or minified JavaScript files
-*.js.map
-*.min.js
-
-# Ignore compiled or minified CSS files
-*.css.map
-*.min.css
-
 # Ignore log files
 *.log
 
 # Ignore package-lock.json for Node.js projects
 package-lock.json
-
-# Ignore compiled HTML files
-*.html
 
 # Ignore any other build artifacts or temporary files
 build/
